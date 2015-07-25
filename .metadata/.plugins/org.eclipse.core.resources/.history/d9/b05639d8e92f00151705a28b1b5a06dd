@@ -1,0 +1,20 @@
+package com.methodoverloding;
+
+public class CheckingAccount extends Account {
+	private double serviceCharge;
+
+	public double getServiceCharge() {
+		return serviceCharge;
+	}
+
+	public void setServiceCharge(double serviceCharge) {
+		this.serviceCharge = serviceCharge;
+	}
+
+	public void withdraw(){
+		
+	}
+	public void m2() {
+		super.withdraw();
+	}
+}

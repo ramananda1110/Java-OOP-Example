@@ -1,0 +1,8 @@
+package com.singleton;
+
+public class Startup {
+public static void main(String[] args) {
+	SingleTonObject obj1 = SingleTonObject.getInatance("Ramananda", "cserama.tpi@gmail.com", "Dhaka");
+	
+}
+}

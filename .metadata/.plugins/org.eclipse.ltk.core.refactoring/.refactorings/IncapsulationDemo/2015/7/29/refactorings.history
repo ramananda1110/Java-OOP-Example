@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.rama.person.Person&apos; to &apos;Account&apos;&#x0D;&#x0A;- Original project: &apos;IncapsulationDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.rama.person.Person&apos;&#x0D;&#x0A;- Renamed element: &apos;com.rama.person.Account&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Person&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.rama.person{Person.java[Person" matchStrategy="1" name="Account" qualified="false" references="true" similarDeclarations="false" stamp="1436915472499" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package com.age.ramananda;
+
+public class CalculateAge {
+
+	private int a;
+	private int b;
+	private int c;
+
+	public void getCurrentAge() {
+		a = 100;
+	}
+
+	public void setAge(int number) {
+		b = number;
+	}
+
+	public String calculate() {
+		if (a > b) {
+			return "a is better";
+		} else if (a < b) {
+			return "b is better";
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package com.methodoverloding;
+
+public class CheckingAccount {
+private double serviceCharge;
+
+public double getServiceCharge() {
+	return serviceCharge;
+}
+
+public void setServiceCharge(double serviceCharge) {
+	this.serviceCharge = serviceCharge;
+}
+
+}

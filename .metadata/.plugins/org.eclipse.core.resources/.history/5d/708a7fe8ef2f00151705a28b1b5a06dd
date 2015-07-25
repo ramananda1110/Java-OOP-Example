@@ -1,0 +1,9 @@
+package com.adapter;
+
+public class Account {
+private String accNo;
+private double balance;
+private String branchName;
+
+
+}

@@ -1,0 +1,11 @@
+package com.age.ramananda;
+
+public class Startup {
+	public static void main(String[] args) {
+		CalculateAge cal1 = new CalculateAge();
+		cal1.getCurrentAge();
+		cal1.setAge();
+		int res = cal1.calculate();
+		System.out.println(res);
+	}
+}

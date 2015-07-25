@@ -1,0 +1,21 @@
+package com.age.ramananda;
+
+public class CalculateAge {
+
+	private int a;
+	private int b;
+	private int c;
+
+	public void getCurrentAge() {
+		a = 12;
+	}
+
+	public void setAge() {
+		b = 24;
+	}
+
+	public int calculate() {
+		c = b - a;
+		return c;
+	}
+}

@@ -1,0 +1,6 @@
+package com.association;
+
+public class Account {
+	private String accountNo;
+	private double balance;
+}

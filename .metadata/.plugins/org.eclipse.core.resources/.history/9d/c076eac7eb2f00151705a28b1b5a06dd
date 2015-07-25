@@ -1,0 +1,17 @@
+package com.methodoverloding;
+
+public class Startup {
+	public static void main(String[] args) {
+
+		SavingsAccount sv1 = new SavingsAccount();
+		CheckingAccount ch1 = new CheckingAccount();
+		
+		sv1.setAccountNo("sto--123so");
+		sv1.setBalance(500);
+		sv1.deposite(1200);
+		sv1.withdraw(2000);
+		System.out.println(sv1.getBalance());
+		
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.rama.interfacedemo;
+
+public class Branch {
+	private String name;
+	private String location;
+	
+	public Branch(String name, String location) {
+		
+	}
+}

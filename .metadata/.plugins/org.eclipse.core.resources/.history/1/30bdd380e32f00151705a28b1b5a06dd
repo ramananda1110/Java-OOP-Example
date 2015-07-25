@@ -1,0 +1,9 @@
+package com.methodoverloding;
+
+public class Account {
+	private String accountNo;
+	private double balance;
+	private String branchName;
+	
+	
+}

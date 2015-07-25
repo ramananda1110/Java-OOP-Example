@@ -1,0 +1,45 @@
+package com.rama.interfacedemo;
+
+public class Student implements Information {
+	private long id;
+	private String name;
+	private String department;
+
+	public Student(long id, String name, String dep) {
+		this.id = id;
+		this.name = name;
+		department = dep;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+
+	@Override
+	public void getInfomation() {
+		System.out.println(" id :" + getId());
+		System.out.println(" Name :" + getName());
+		System.out.println(" Department :" + getDepartment());
+		System.out.println("-----------------");
+	}
+}

@@ -1,0 +1,6 @@
+package com.association;
+
+public class SavingAccount extends Account{
+
+	
+}

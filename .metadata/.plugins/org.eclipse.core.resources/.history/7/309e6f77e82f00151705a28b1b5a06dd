@@ -1,0 +1,10 @@
+package com.methodoverloding;
+
+public class Startup {
+	public static void main(String[] args) {
+		Account ac1 = new SavingsAccount();
+		Account ac2 = new CheckingAccount();
+
+		SavingsAccount sv1 = new SavingsAccount();
+	}
+}

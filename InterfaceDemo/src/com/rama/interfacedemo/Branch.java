@@ -1,0 +1,35 @@
+package com.rama.interfacedemo;
+
+public class Branch implements Information {
+	private String name;
+	private String location;
+
+	public Branch(String name, String location) {
+		this.name = name;
+		this.location = location;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	@Override
+	public void getInfomation() {
+		System.out.println(" Name :" + getName());
+		System.out.println(" Location :" + getLocation());
+		System.out.println("-----------------");
+	}
+
+}

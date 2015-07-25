@@ -1,0 +1,16 @@
+package com.adapter;
+
+public class CustomerAccount extends Account implements CreaditCard{
+
+	@Override
+	public void setAccount() {
+		
+	}
+
+	@Override
+	public String getDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

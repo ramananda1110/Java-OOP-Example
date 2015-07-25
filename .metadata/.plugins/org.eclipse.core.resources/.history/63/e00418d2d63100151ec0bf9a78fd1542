@@ -1,0 +1,17 @@
+package com.association;
+
+public class Startup {
+	public static void main(String[] args) {
+		Account ac1 = new Account();
+		ac1.setName("MD.XYZ");
+		ac1.setAcNumber("38999043-499");
+		
+		SavingAccount sv1 = new SavingAccount();
+		sv1.setName("Pupus");
+		sv1.setAcNumber("4530-503");
+		sv1.setInterestAmount(1200);
+		sv1.deposite(5000);
+		sv1.withdraw(500);
+		System.out.println(sv1.getBalance());
+	}
+}

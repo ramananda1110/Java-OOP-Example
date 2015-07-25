@@ -1,0 +1,19 @@
+package com.adapter;
+
+import java.util.Scanner;
+
+public class CustomerAccount extends Account implements CreaditCard {
+	Scanner input = new Scanner(System.in);
+
+	@Override
+	public void setAccount() {
+		
+	}
+
+	@Override
+	public String getDetails() {
+
+		return null;
+	}
+
+}

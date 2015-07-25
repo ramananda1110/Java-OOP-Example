@@ -1,0 +1,9 @@
+package com.methodoverloding;
+
+public class SavingsAccount extends Account {
+
+	@Override
+	public void withdraw(double amount) {
+		super.withdraw(amount);
+	}
+}
